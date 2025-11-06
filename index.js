@@ -161,7 +161,7 @@ async function run() {
     //   const cursor = bidsCollection.find(query);
     //   const result = await cursor.toArray();
     //   res.send(result);
-    // });
+    // }); ok
 
     app.get('/bids', verifyFireBaseToken, async (req, res) => {
       const email = req.query.email;
